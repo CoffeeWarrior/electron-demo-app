@@ -2,14 +2,19 @@
   "name": "electron-demo-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Lucas Goldman",
   "license": "ISC",
   "devDependencies": {
     "electron": "^26.1.0"
+  },
+  "dependencies": {
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
   }
 }
